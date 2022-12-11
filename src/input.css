@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .btn-simple {
+  @apply ring-4 ring-offset-2 ring-slate-400 bg-teal-500 px-2 p-[2px] rounded-sm tracking-wide duration-300 hover:tracking-[0.3rem] text-slate-200 text-xl uppercase font-bold my-3 hover:bg-lime-500 hover:text-slate-900;
+} */
+
+.btn-simple-on {
+  @apply ring-4 ring-offset-2 ring-slate-400 bg-teal-500 px-[12px] p-[2px] rounded-sm tracking-wide duration-300 hover:tracking-[0.3rem] text-slate-200 text-xl uppercase font-bold my-3 hover:bg-red-500 hover:text-slate-900;
+}
+
+.btn-simple-off {
+  @apply ring-4 ring-offset-2 ring-slate-400 bg-red-500 px-[7.5px] p-[2px] rounded-sm tracking-wide duration-300 hover:tracking-[0.3rem] text-slate-50 text-xl uppercase font-bold my-3 hover:bg-green-500 hover:text-slate-300;
+}
+
+#next__page a {
+  @apply w-full h-auto flex flex-wrap justify-center items-center px-3 py-1 text-lg text-blue-500 m-2 font-semibold ring-4 ring-slate-400 rounded-md duration-500 hover:tracking-wide hover:text-red-500 ml-25px;
+}
